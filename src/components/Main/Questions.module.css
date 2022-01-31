@@ -1,0 +1,121 @@
+.leftArrow {
+  width: 71px;
+  height: 71px;
+  background: transparent url("../../assets/arrow-left.svg") 0% 0% no-repeat
+    padding-box;
+}
+
+.rightArrow {
+  width: 71px;
+  height: 71px;
+  background: transparent url("../../assets/arrow-right.svg") 0% 0% no-repeat
+    padding-box;
+}
+
+.leftArrow,
+.rightArrow {
+  margin-top: 76.64px;
+  cursor: pointer;
+  max-width: 100%;
+}
+
+.rightArrow {
+  float: right;
+}
+.questions {
+  display: grid;
+  grid-template-columns: 71px 600px 71px;
+  grid-gap: 170px;
+  padding-top: 121px;
+  width: 1081px;
+  margin: auto;
+  max-width: 100%;
+  justify-items: center;
+  align-items: center;
+}
+
+@media (max-width: 1098px) {
+  .questions {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-template-columns: 10% auto 10%;
+    grid-gap: 5px;
+  }
+
+  .rightArrow{
+      float:left;
+      background-position: 100% center;
+  }
+
+  .rightArrow, .leftArrow{
+      margin-top:0px;
+  }
+}
+
+.question {
+  text-align: center;
+  letter-spacing: 0px;
+  color: #222222;
+}
+
+.question h3 {
+  margin-top: 9px;
+  margin-bottom: 23px;
+}
+
+.question .small {
+  margin: auto;
+  letter-spacing: 3px;
+  color: #d4b254;
+  text-transform: uppercase;
+}
+
+.question P {
+  font-size: 18px;
+  color: #777777;
+  line-height: 32px;
+  letter-spacing: 0px;
+  margin-bottom: 11px;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.question P.name {
+  font-size: 15px;
+  margin-top:14px;
+}
+
+.questionContainer {
+  background: #eeeeee 0% 0% no-repeat padding-box;
+}
+
+.questionContainer A {
+  margin: auto;
+  display: block;
+  width: 419px;
+  max-width: 100%;
+}
+.questionContainer BUTTON {
+  padding-left: 34.5px;
+  padding-right: 32.5px;
+  letter-spacing: 2px;
+  margin-top: 18px;
+  margin-bottom: 117px;
+  width: 419px;
+  margin-left: 1px;
+}
+
+@media(max-width: 1300px){
+    .questions{
+        padding-top:30px;
+    }
+
+    .questionContainer BUTTON{
+        margin-bottom: 30px;
+    }
+
+    .questionContainer BUTTON{
+      max-width: 100%;
+    }
+
+}

@@ -1,0 +1,78 @@
+.discover IMG {
+  height: 100%;
+}
+
+@media (min-width: 2000px) {
+  .discover img {
+    float: right;
+  }
+}
+
+
+.discoverImage {
+  width: 50%;
+  position: absolute;
+  overflow: hidden;
+  height: 100%;
+}
+
+.discover {
+  position: relative;
+}
+
+.discover .content {
+  padding: 168px 0 167px;
+  padding-left: 55.5%;
+
+  letter-spacing: 0px;
+  color: #222222;
+}
+
+.discover .heading {
+  font-size: 42px;
+  font-family: "Helvetica-Bold", "Arial", sans-serif;
+  font-weight: bold;
+  margin-top: 6px;
+  line-height: 52px;
+  color: #222222;
+  margin-bottom: 26px;
+}
+
+.discover P {
+  color: #777777;
+  margin-bottom: 31px;
+}
+
+.discover .content .small {
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: #d4b254;
+  text-transform: uppercase;
+  line-height: 18px;
+}
+
+.discover BUTTON {
+  padding-left: 58.5px;
+  padding-right: 47.5px;
+  width: 211px;
+}
+
+
+@media (max-width: 1300px){
+    .discover .content{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media(max-width: 1054px){
+    .discover .content{
+        padding-left: 10px;
+        padding-right:10px;
+        text-align: center;
+    }
+
+    .discover .discoverImage{
+        display:none;
+    }
+}
