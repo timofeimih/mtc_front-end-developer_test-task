@@ -3,6 +3,7 @@
 Here is a front-end developer role challenge project. This website responsive design is created from desktop Adobe XD design and was split into components using React. The requirement for this task was to execute it in 2 working days (finished in 14 hours).
 
 # Accomplishments
+
 1. Pixel perfect markup
 2. Responsive design from desktop view
 3. Webpage split to React.js components
@@ -13,3 +14,11 @@ Here is a front-end developer role challenge project. This website responsive de
 # Project URL
 
 This project is available at [https://mtc.codesgroup.ru/](https://mtc.codesgroup.ru/)
+
+# Project Build
+
+If you would want to build it yourself then here are instructions:
+```
+npm install
+npm run-script build
+```
